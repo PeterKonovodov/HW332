@@ -1,14 +1,15 @@
 <resources>
     <string name="app_name">HW332</string>
-    <string name="ok">ОК</string>
+    <string name="ok">Select</string>
 
     <string-array name="languages">
-        <item>Русский</item>
         <item>English</item>
+        <item>Русский</item>
+        <item>中文</item>
         <item>Татарча</item>
     </string-array>
 
-    <string name="info">English</string>
+    <string name="info">Hello!</string>
 
 
 </resources>

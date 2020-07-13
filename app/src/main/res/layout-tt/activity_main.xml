@@ -26,16 +26,36 @@
         app:layout_constraintTop_toTopOf="@id/languagesSpinner" />
 
 
-    <TextView
-        android:id="@+id/infobox"
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginTop="30dp"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/okBtn"
-        android:text="@string/info" />
+        >
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/s600"
+            android:alpha="0.3"
+            > </ImageView>
+
+        <TextView
+            android:id="@+id/infobox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/info"
+            android:alpha="1.0"
+            android:fontFamily="@font/comic"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            />
+
+    </FrameLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
